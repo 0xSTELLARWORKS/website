@@ -35,13 +35,13 @@ export function SiteHeader() {
 
   return (
     <div
-      className={`fixed top-0 w-full border-b-4 border-accent bg-secondary transition-all duration-300 ease-in-out z-10 ${
+      className={`fixed top-0 w-full border-b-4 border-accent bg-secondary transition-all duration-300 ease-in-out z-10 max-h-[160px] md:max-h-[360px] ${
         isScrolled ? "h-[160px]" : "h-[360px]"
       }`}
     >
       <div className="flex h-full w-full justify-center items-center relative duration-300 ease-in-out">
         <Image
-          className="w-auto mb-[50px] transition-all duration-300 ease-in-out"
+          className="w-auto mb-[50px] max-h-[50px] md:max-h-[141px] transition-all duration-300 ease-in-out"
           src="/logo.svg"
           alt="StellarWorks logo"
           height={0}

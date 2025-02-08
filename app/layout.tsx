@@ -31,7 +31,7 @@ export default function RootLayout({
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
       </head>
       <body
-        className={`${poppins.variable} ${spaceMono.variable} antialiased`}
+        className={`${poppins.variable} ${spaceMono.variable} antialiased no-scrollbar`}
       >
         <SiteHeader />
         {children}
