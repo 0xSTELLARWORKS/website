@@ -2,8 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
-  reactStrictMode: true,
-  basePath: "/website" // TODO: Remove when domain is added
+  reactStrictMode: true
 };
 
 export default nextConfig;

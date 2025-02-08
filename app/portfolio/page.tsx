@@ -23,8 +23,8 @@ export default function Portfolio() {
     <Page>
       <ScreenSelector>
         <ScreenSelectorSideBar>
-          <ScreenSelectorItem image="/projects/kaboom.svg" active={currentScreen === 0} onClick={() => setCurrentScreen(0)}/>
-          <ScreenSelectorItem image="/projects/tankobon.svg" active={currentScreen === 1} onClick={() => setCurrentScreen(1)}/>
+          <ScreenSelectorItem name="Kaboom" image="/projects/kaboom.svg" active={currentScreen === 0} onClick={() => setCurrentScreen(0)}/>
+          <ScreenSelectorItem name="Tankobon" image="/projects/tankobon.svg" active={currentScreen === 1} onClick={() => setCurrentScreen(1)}/>
         </ScreenSelectorSideBar>
         {getScreen()}
       </ScreenSelector>
