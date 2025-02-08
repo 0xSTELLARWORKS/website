@@ -5,8 +5,6 @@ import { Section } from "../Section";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons/faGlobe";
-import Image from "next/image";
-import { Swiper, SwiperSlide } from "swiper/react";
 import 'swiper/css';
 import { TechCell } from "../TechCell";
 import { TechGrid } from "../TechGrid";

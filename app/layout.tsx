@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Poppins, Space_Mono } from "next/font/google";
-import Image from "next/image";
 import "./globals.css";
-import { NavLink } from "@/components/NavLink";
 import { SiteHeader } from "@/components/SiteHeader";
 
 const poppins = Poppins({
