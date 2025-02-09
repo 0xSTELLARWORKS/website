@@ -8,6 +8,7 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons/faGlobe";
 import { ScreenshotSection } from "../ScreenshotSection";
+import { ProjectCta } from "../ProjectCta";
 
 export default function Tankobon() {
   const screenshots = [
@@ -44,6 +45,8 @@ export default function Tankobon() {
         <h3 className="text-subheading font-extrabold tracking-wider">For the collector</h3>
         <p>Never accidentally buy the same volume twice! Tankōbon helps you track your manga collection across multiple editions.</p>
       </Section>
+
+      <ProjectCta />
 
       <Section>
         <h3 className="text-subheading font-extrabold tracking-wider">Technologies:</h3>

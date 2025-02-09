@@ -30,7 +30,8 @@ export default {
       },
       fontSize: {
         heading: "30px",
-        subheading: "25px"
+        subheading: "20px",
+        cta: "25px"
       }
     },
   },

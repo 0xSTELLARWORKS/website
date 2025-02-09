@@ -5,10 +5,11 @@ import { Section } from "../Section";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons/faGlobe";
-import 'swiper/css';
+import "swiper/css";
 import { TechCell } from "../TechCell";
 import { TechGrid } from "../TechGrid";
 import { ScreenshotSection } from "../ScreenshotSection";
+import { ProjectCta } from "../ProjectCta";
 
 export default function Kaboom() {
   const screenshots = [
@@ -26,9 +27,30 @@ export default function Kaboom() {
     <ScreenSelectorScreen>
       <Section>
         <h2 className="text-heading font-extrabold tracking-wider">Kaboom.</h2>
-        <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Nibh urna condimentum ex pretium cubilia neque aenean tortor. Nullam euismod accumsan ante ad lacinia. Molestie a ut mattis non eget ornare habitasse senectus id. Ac tempor scelerisque torquent amet morbi morbi gravida tristique. Aenean vivamus convallis taciti dignissim facilisis ante. Etiam faucibus velit magna ultricies facilisis orci tortor. Sagittis suscipit justo ac nam velit urna dictum maximus. Pellentesque aliquam cubilia platea faucibus turpis dis ligula.</p>
-        <p>Tempor odio condimentum posuere eu aenean urna lacinia. Donec senectus euismod sagittis consequat placerat. Etiam varius maecenas integer tristique iaculis. Curae gravida tincidunt venenatis lacinia laoreet maximus lectus sem augue. Urna ante dignissim sed ornare elementum. Risus primis pulvinar penatibus integer elementum venenatis. Porta maecenas libero ridiculus nec convallis placerat. Sagittis orci lobortis adipiscing nostra habitant curabitur nascetur. Venenatis erat volutpat natoque mi, dictum eu.</p>
+        <p>Discover, track, and engage with your favorite comics.</p>
       </Section>
+
+      <Section>
+        <h3 className="text-subheading font-extrabold tracking-wider">The Kaboom experience</h3>
+        <p>Kaboom is your ultimate comic book companion. It covers a wide range of comics, syncing data seamlessly from Comicvine. Whether you&apos;re into superhero tales, graphic novels, or indie comics, Kaboom helps you keep track of your entire collection with ease.</p>
+      </Section>
+
+      <Section>
+        <h3 className="text-subheading font-extrabold tracking-wider">Built for social connection</h3>
+        <p>Kaboom isn&apos;t just a comic tracker—it&apos;s a community. Follow other users, engage with their activities, and explore their ratings and reviews. Share your thoughts on your favorite issues, discover what others are reading, and connect over shared comic passions.</p>
+      </Section>
+
+      <Section>
+        <h3 className="text-subheading font-extrabold tracking-wider">Your collection, your way</h3>
+        <p>Wishlist your favorite comics, mark individual issues as read or collected, and easily manage your growing collection. Kaboom gives you the tools to organize and track your comic book journey like never before.</p>
+      </Section>
+
+      <Section>
+        <h3 className="text-subheading font-extrabold tracking-wider">Blazing fast statistics</h3>
+        <p>Kaboom&apos;s powerful statistics engine gives you lightning-fast insights into your comic collection. View your progress on a yearly or all-time basis and see exactly how many issues you&apos;ve read, collected, and completed. It&apos;s a true reflection of your comic book achievements.</p>
+      </Section>
+
+      <ProjectCta />
 
       <Section>
         <h3 className="text-subheading font-extrabold tracking-wider">Technologies:</h3>
