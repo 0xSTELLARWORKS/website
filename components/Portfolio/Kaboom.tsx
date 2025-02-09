@@ -38,6 +38,7 @@ export default function Kaboom() {
           <TechCell href="https://rubyonrails.org" devicon="devicon-rails-plain"/>
           <TechCell href="https://rspec.info" devicon="devicon-rspec-plain"/>
           <TechCell href="https://www.postgresql.org" devicon="devicon-postgresql-plain"/>
+          <TechCell href="https://github.com/features/actions" devicon="devicon-githubactions-plain"/>
         </TechGrid>
       </Section>
 

@@ -26,9 +26,23 @@ export default function Tankobon() {
   return (
     <ScreenSelectorScreen>
       <Section>
-        <h2 className="text-heading font-extrabold tracking-wider">Tankobon.</h2>
-        <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Nibh urna condimentum ex pretium cubilia neque aenean tortor. Nullam euismod accumsan ante ad lacinia. Molestie a ut mattis non eget ornare habitasse senectus id. Ac tempor scelerisque torquent amet morbi morbi gravida tristique. Aenean vivamus convallis taciti dignissim facilisis ante. Etiam faucibus velit magna ultricies facilisis orci tortor. Sagittis suscipit justo ac nam velit urna dictum maximus. Pellentesque aliquam cubilia platea faucibus turpis dis ligula.</p>
-        <p>Tempor odio condimentum posuere eu aenean urna lacinia. Donec senectus euismod sagittis consequat placerat. Etiam varius maecenas integer tristique iaculis. Curae gravida tincidunt venenatis lacinia laoreet maximus lectus sem augue. Urna ante dignissim sed ornare elementum. Risus primis pulvinar penatibus integer elementum venenatis. Porta maecenas libero ridiculus nec convallis placerat. Sagittis orci lobortis adipiscing nostra habitant curabitur nascetur. Venenatis erat volutpat natoque mi, dictum eu.</p>
+        <h2 className="text-heading font-extrabold tracking-wider">Tankōbon.</h2>
+        <p>Documenting manga chapters and volumes.</p>
+      </Section>
+
+      <Section>
+        <h3 className="text-subheading font-extrabold tracking-wider">The tankōbon format</h3>
+        <p>In Japan, manga are typically collected in volumes, each with a length of around 7 chapters. Most series are first serialized in magazines before being compiled into tankōbon volumes.</p>
+      </Section>
+
+      <Section>
+        <h3 className="text-subheading font-extrabold tracking-wider">Built and maintained by the community</h3>
+        <p>Tankōbon is a community-driven site, meaning you can add or edit data as long as you have an account. Tankōbon is also open-source! Community members can contribute by suggesting new features and fixing bugs.</p>
+      </Section>
+
+      <Section>
+        <h3 className="text-subheading font-extrabold tracking-wider">For the collector</h3>
+        <p>Never accidentally buy the same volume twice! Tankōbon helps you track your manga collection across multiple editions.</p>
       </Section>
 
       <Section>
