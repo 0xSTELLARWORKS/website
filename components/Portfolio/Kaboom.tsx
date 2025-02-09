@@ -32,7 +32,7 @@ export default function Kaboom() {
 
       <Section>
         <h3 className="text-subheading font-extrabold tracking-wider">The Kaboom experience</h3>
-        <p>Kaboom is your ultimate comic book companion. It covers a wide range of comics, syncing data seamlessly from Comicvine. Whether you&apos;re into superhero tales, graphic novels, or indie comics, Kaboom helps you keep track of your entire collection with ease.</p>
+        <p>Kaboom is your ultimate comic book companion. It covers a wide range of comics, syncing data seamlessly from ComicVine. Whether you&apos;re into superhero tales, graphic novels, or indie comics, Kaboom helps you keep track of your entire collection with ease.</p>
       </Section>
 
       <Section>
