@@ -49,5 +49,18 @@ body {
 /* Hide scrollbar for IE, Edge and Firefox */
 .no-scrollbar {
     -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
+    scrollbar-width: 0; /* Firefox */
+}
+
+.site-header {
+    background-image: url("/site-header-bg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+}
+
+@media screen and (min-width: 960px) {
+    .site-header {
+        background-size: cover;
+    }
 }

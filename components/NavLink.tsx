@@ -16,6 +16,6 @@ export function NavLink({ text, href }: Props) {
   }
 
   return (
-    <Link href={href} className={`${classes()} py-2 px-4 rounded whitespace-nowrap transition duration-300 ease-in-out`} >{text}</Link>
+    <Link href={href} className={`${classes()} text-xl py-2 px-4 rounded whitespace-nowrap transition duration-300 ease-in-out`} >{text}</Link>
   )
 }
