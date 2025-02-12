@@ -64,3 +64,7 @@ body {
         background-size: cover;
     }
 }
+
+.selector-sidebar .selector-item {
+    @apply animate-fade;
+}
