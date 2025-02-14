@@ -6,7 +6,7 @@ interface Props {
 
 export function ScreenSelector({ children }: Props) {
   return (
-    <div className="grid grid-cols-4 min-h-available">
+    <div className="grid grid-cols-4 min-h-screen">
       {children}
     </div>
   )

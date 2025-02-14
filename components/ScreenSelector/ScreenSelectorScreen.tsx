@@ -6,7 +6,7 @@ interface Props {
 
 export function ScreenSelectorScreen({ children }: Props) {
   return (
-    <div className="pt-nav col-span-4 md:col-span-3 animate-appear">
+    <div className="pt-nav col-span-4 md:col-span-3 animate-appear relative">
       {children}
     </div>
   )
