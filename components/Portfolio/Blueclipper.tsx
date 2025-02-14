@@ -2,15 +2,9 @@
 
 import { ScreenSelectorScreen } from "@/components/ScreenSelector/ScreenSelectorScreen";
 import { Section } from "../Section";
-import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGlobe } from "@fortawesome/free-solid-svg-icons/faGlobe";
-import "swiper/css";
 import { TechCell } from "../TechCell";
 import { TechGrid } from "../TechGrid";
-import { ScreenshotSection } from "../ScreenshotSection";
 import { ProjectCta } from "../ProjectCta";
-import Image from "next/image";
 import ProjectTitle from "./ProjectTitle";
 
 export default function Blueclipper() {
@@ -24,7 +18,7 @@ export default function Blueclipper() {
 
       <Section>
         <h3 className="text-subheading font-extrabold tracking-wider">A platform for change</h3>
-        <p>blueclipper helps you stay informed and engaged with causes that matter. Follow movements, share updates, and spread awareness. Whether it's social justice, environmental activism, or community initiatives, every post brings more visibility to the cause.</p>
+        <p>blueclipper helps you stay informed and engaged with causes that matter. Follow movements, share updates, and spread awareness. Whether it&apos;s social justice, environmental activism, or community initiatives, every post brings more visibility to the cause.</p>
       </Section>
 
       <Section>

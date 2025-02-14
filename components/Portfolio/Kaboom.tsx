@@ -10,7 +10,6 @@ import { TechCell } from "../TechCell";
 import { TechGrid } from "../TechGrid";
 import { ScreenshotSection } from "../ScreenshotSection";
 import { ProjectCta } from "../ProjectCta";
-import Image from "next/image";
 import ProjectTitle from "./ProjectTitle";
 
 export default function Kaboom() {

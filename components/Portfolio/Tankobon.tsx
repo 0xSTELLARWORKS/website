@@ -9,7 +9,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons/faGlobe";
 import { ScreenshotSection } from "../ScreenshotSection";
 import { ProjectCta } from "../ProjectCta";
-import Image from "next/image";
 import ProjectTitle from "./ProjectTitle";
 
 export default function Tankobon() {
