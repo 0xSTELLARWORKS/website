@@ -18,16 +18,11 @@
        width="94.720833"
        height="35.983334"
        x="-131.74594"
-       y="799.48596" /><text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:7.64859px;line-height:1.2;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0.509906px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#f1e0c5;fill-opacity:1;stroke:none;stroke-width:10.1981;stroke-linecap:square;stroke-linejoin:round;paint-order:markers stroke fill"
-       x="-105.33502"
-       y="820.15466"
-       id="text79"><tspan
-         id="tspan73"
-         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:7.64859px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f1e0c5;fill-opacity:1;stroke:none;stroke-width:10.1981"
-         x="-105.33502"
-         y="820.15466">TANVEER</tspan></text></g><style
+       y="799.48596" /><path
+       d="m -103.73647,820.15466 v -3.95432 h -1.56796 v -1.39969 h 4.94099 v 1.39969 h -1.56796 v 3.95432 z m 3.5005,0 2.340472,-5.35401 h 1.774473 l 2.340469,5.35401 h -1.866256 l -1.728581,-4.49737 h 0.70367 l -1.728582,4.49737 z m 1.392047,-0.93312 0.458916,-1.30027 h 2.462846 l 0.458915,1.30027 z m 5.863917,0.93312 v -5.35401 h 1.483827 l 2.722898,3.2583 h -0.688373 v -3.2583 h 1.759175 v 5.35401 h -1.483826 l -2.722898,-3.2583 h 0.688373 v 3.2583 z m 8.34207,0 -2.263983,-5.35401 h 1.942742 l 1.84331,4.52032 h -1.154937 l 1.896851,-4.52032 h 1.774472 l -2.263982,5.35401 z m 6.376373,-3.36538 h 2.38636 v 1.30026 h -2.38636 z m 0.122377,2.00393 h 2.677007 v 1.36145 h -4.45148 v -5.35401 h 4.352048 v 1.36145 h -2.577575 z m 5.535032,-2.00393 h 2.38636 v 1.30026 h -2.38636 z m 0.122378,2.00393 h 2.677006 v 1.36145 h -4.451479 v -5.35401 h 4.352048 v 1.36145 h -2.577575 z m 3.882937,1.36145 v -5.35401 h 2.577574 q 0.749562,0 1.292612,0.24475 0.550699,0.24476 0.848994,0.70368 0.298295,0.45126 0.298295,1.0708 0,0.61953 -0.298295,1.0708 -0.298295,0.44362 -0.848994,0.68072 -0.54305,0.23711 -1.292612,0.23711 h -1.575609 l 0.803102,-0.74191 v 2.08806 z m 3.204759,0 -1.315558,-1.95039 h 1.912148 l 1.330854,1.95039 z m -1.399692,-1.8892 -0.803102,-0.8184 h 1.460881 q 0.37478,0 0.550698,-0.16827 0.183566,-0.16827 0.183566,-0.45891 0,-0.29065 -0.183566,-0.45892 -0.175918,-0.16827 -0.550698,-0.16827 h -1.460881 l 0.803102,-0.8184 z"
+       id="text79"
+       style="font-weight:900;font-size:7.64859px;line-height:1.2;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Heavy';letter-spacing:0.509906px;fill:#f1e0c5;stroke-width:10.1981;stroke-linecap:square;stroke-linejoin:round;paint-order:markers stroke fill"
+       aria-label="TANVEER" /></g><style
      id="style2"
      type="text/css">
 	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FF0000;fill-opacity:0;}
