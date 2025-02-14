@@ -9,6 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons/faGlobe";
 import { ScreenshotSection } from "../ScreenshotSection";
 import { ProjectCta } from "../ProjectCta";
+import Image from "next/image";
 
 export default function Tankobon() {
   const screenshots = [
@@ -27,8 +28,14 @@ export default function Tankobon() {
   return (
     <ScreenSelectorScreen>
       <Section>
-        <h2 className="text-heading font-extrabold tracking-wider">Tankōbon.</h2>
-        <p>Documenting manga chapters and volumes.</p>
+        <div className="flex gap-8 flex-col sm:flex-row sm:items-center">
+          <Image width={75} height={75} src="/projects/logos/tankobon.svg" alt="Tankobon logo"/>
+          <div>
+            <h2 className="text-heading font-extrabold tracking-wider">Tankōbon.</h2>
+            <p>Documenting manga chapters and volumes.</p>
+          </div>
+        </div>
+        <div className="animate-underline mt-2 h-[4px] w-full bg-[#29CF95]"/>
       </Section>
 
       <Section>
@@ -46,7 +53,7 @@ export default function Tankobon() {
         <p>Never accidentally buy the same volume twice! Tankōbon helps you track your manga collection across multiple editions.</p>
       </Section>
 
-      <ProjectCta />
+      <ProjectCta colour="bg-[#29CF95]" />
 
       <Section>
         <h3 className="text-subheading font-extrabold tracking-wider">Technologies:</h3>

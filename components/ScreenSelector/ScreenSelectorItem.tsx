@@ -18,6 +18,7 @@ export function ScreenSelectorItem({ name, image, active, onClick }: Props) {
         alt={`${name} logo`}
         height={0}
         width={0}
+        loading="eager"
       />
     </div>
   )

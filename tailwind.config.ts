@@ -41,11 +41,18 @@ export default {
         fade: {
           '0%': { opacity: '0%' },
           '100%': { opacity: '100%' },
+        },
+        underline: {
+          '0%': { width: '0', marginLeft: 'auto', marginRight: 'auto' },
+          '25%': { width: '20%' },
+          '35%': { width: '20%' },
+          '100%': { width: '100%', marginLeft: 'auto', marginRight: 'auto'  }
         }
       },
       animation: {
         appear: 'appear 500ms ease-in-out',
         fade: 'fade 500ms ease-in-out',
+        underline: 'underline 500ms ease-in-out',
       }
     },
   },

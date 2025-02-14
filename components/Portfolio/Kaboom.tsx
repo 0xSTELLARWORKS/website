@@ -10,6 +10,7 @@ import { TechCell } from "../TechCell";
 import { TechGrid } from "../TechGrid";
 import { ScreenshotSection } from "../ScreenshotSection";
 import { ProjectCta } from "../ProjectCta";
+import Image from "next/image";
 
 export default function Kaboom() {
   const screenshots = [
@@ -26,8 +27,14 @@ export default function Kaboom() {
   return (
     <ScreenSelectorScreen>
       <Section>
-        <h2 className="text-heading font-extrabold tracking-wider">Kaboom.</h2>
-        <p>Discover, track, and engage with your favorite comics.</p>
+        <div className="flex gap-8 flex-col sm:flex-row sm:items-center">
+          <Image width={75} height={75} src="/projects/logos/kaboom.svg" alt="Kaboom logo"/>
+          <div>
+            <h2 className="text-heading font-extrabold tracking-wider">Kaboom.</h2>
+            <p>Discover, track, and engage with your favorite comics.</p>
+          </div>
+        </div>
+        <div className="animate-underline mt-2 h-[4px] w-full bg-gradient-to-r from-[#ef6461] to-[#e4b363]"/>
       </Section>
 
       <Section>
@@ -50,7 +57,7 @@ export default function Kaboom() {
         <p>Kaboom&apos;s powerful statistics engine gives you lightning-fast insights into your comic collection. View your progress on a yearly or all-time basis and see exactly how many issues you&apos;ve read, collected, and completed. It&apos;s a true reflection of your comic book achievements.</p>
       </Section>
 
-      <ProjectCta />
+      <ProjectCta colour="bg-gradient-to-r from-[#ef6461] to-[#e4b363]" />
 
       <Section>
         <h3 className="text-subheading font-extrabold tracking-wider">Technologies:</h3>
