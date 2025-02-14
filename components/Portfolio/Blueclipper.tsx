@@ -33,7 +33,7 @@ export default function Blueclipper() {
 
       <Section>
         <h3 className="text-subheading font-extrabold tracking-wider">Open source, open future</h3>
-        <p>blueclipper may become an open-source project, allowing contributors to help shape its development. Follow the progress on <a href="https://github.com/blueclipper" className="underline">GitHub</a>,</p>
+        <p>blueclipper may become an open-source project, allowing contributors to help shape its development. Follow the progress on <a href="https://github.com/blueclipper" className="underline">GitHub</a>.</p>
       </Section>
 
       <ProjectCta colour="bg-secondary" />
