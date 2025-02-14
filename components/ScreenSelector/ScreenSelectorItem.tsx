@@ -13,7 +13,7 @@ export function ScreenSelectorItem({ name, image, active, onClick }: Props) {
   return (
     <div onClick={onClick} className={`selector-item w-full h-fit border-b-[4px] border-accent ${active ? "bg-secondary" : "bg-transparent"} hover:bg-secondary cursor-pointer transition duration-300 ease-in-out`}>
       <Image
-        className="w-full h-auto transition-all duration-300 ease-in-out"
+        className="w-full h-auto transition-all duration-300 ease-in-out aspect-[2.63]"
         src={image}
         alt={`${name} logo`}
         height={0}
