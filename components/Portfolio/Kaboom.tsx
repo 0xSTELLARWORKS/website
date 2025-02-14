@@ -11,6 +11,7 @@ import { TechGrid } from "../TechGrid";
 import { ScreenshotSection } from "../ScreenshotSection";
 import { ProjectCta } from "../ProjectCta";
 import Image from "next/image";
+import ProjectTitle from "./ProjectTitle";
 
 export default function Kaboom() {
   const screenshots = [
@@ -26,16 +27,11 @@ export default function Kaboom() {
 
   return (
     <ScreenSelectorScreen>
-      <Section>
-        <div className="flex gap-8 flex-col sm:flex-row sm:items-center">
-          <Image width={75} height={75} src="/projects/logos/kaboom.svg" alt="Kaboom logo"/>
-          <div>
-            <h2 className="text-heading font-extrabold tracking-wider">Kaboom.</h2>
-            <p>Discover, track, and engage with your favorite comics.</p>
-          </div>
-        </div>
-        <div className="animate-underline mt-2 h-[4px] w-full bg-gradient-to-r from-[#ef6461] to-[#e4b363]"/>
-      </Section>
+      <ProjectTitle title="Kaboom"
+        subheading="Discover, track, and engage with your favorite comics."
+        image="/projects/logos/kaboom.svg"
+        colour="bg-gradient-to-r from-[#ef6461] to-[#e4b363]"
+      />
 
       <Section>
         <h3 className="text-subheading font-extrabold tracking-wider">The Kaboom experience</h3>

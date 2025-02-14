@@ -8,8 +8,9 @@ import Kaboom from "@/components/Portfolio/Kaboom"
 import { ScreenSelector } from "@/components/ScreenSelector/ScreenSelector"
 import { ScreenSelectorItem } from "@/components/ScreenSelector/ScreenSelectorItem"
 import { ScreenSelectorSideBar } from "@/components/ScreenSelector/ScreenSelectorSideBar"
+import Blueclipper from "@/components/Portfolio/Blueclipper"
 
-const SCREENS = ["kaboom", "tankobon"]
+const SCREENS = ["kaboom", "blueclipper", "tankobon"]
 
 export default function Portfolio() {
   const router = useRouter()
@@ -34,7 +35,7 @@ export default function Portfolio() {
 
   const getScreen = () => {
     const screens = [
-      <Kaboom key={0} />, <Tankobon key={1} />
+      <Kaboom key={0} />, <Blueclipper key={1} />, <Tankobon key={2} />
     ]
     const index = SCREENS.indexOf(screenName)
     return screens[index]
@@ -49,6 +50,12 @@ export default function Portfolio() {
             image="/projects/kaboom.svg"
             active={screenName === "kaboom"}
             onClick={() => updateHash("kaboom")}
+          />
+          <ScreenSelectorItem
+            name="blueclipper"
+            image="/projects/blueclipper.svg"
+            active={screenName === "blueclipper"}
+            onClick={() => updateHash("blueclipper")}
           />
           <ScreenSelectorItem
             name="Tankobon"

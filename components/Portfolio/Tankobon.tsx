@@ -10,6 +10,7 @@ import { faGlobe } from "@fortawesome/free-solid-svg-icons/faGlobe";
 import { ScreenshotSection } from "../ScreenshotSection";
 import { ProjectCta } from "../ProjectCta";
 import Image from "next/image";
+import ProjectTitle from "./ProjectTitle";
 
 export default function Tankobon() {
   const screenshots = [
@@ -27,16 +28,11 @@ export default function Tankobon() {
 
   return (
     <ScreenSelectorScreen>
-      <Section>
-        <div className="flex gap-8 flex-col sm:flex-row sm:items-center">
-          <Image width={75} height={75} src="/projects/logos/tankobon.svg" alt="Tankobon logo"/>
-          <div>
-            <h2 className="text-heading font-extrabold tracking-wider">Tankōbon.</h2>
-            <p>Documenting manga chapters and volumes.</p>
-          </div>
-        </div>
-        <div className="animate-underline mt-2 h-[4px] w-full bg-[#29CF95]"/>
-      </Section>
+      <ProjectTitle title="Tankōbon"
+        subheading="Documenting manga chapters and volumes."
+        image="/projects/logos/tankobon.svg"
+        colour="bg-[#29CF95]"
+      />
 
       <Section>
         <h3 className="text-subheading font-extrabold tracking-wider">The tankōbon format</h3>
