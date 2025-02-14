@@ -56,13 +56,7 @@ body {
     background-image: url("/site-header-bg.svg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 150%;
-}
-
-@media screen and (min-width: 960px) {
-    .site-header {
-        background-size: cover;
-    }
+    background-size: cover;
 }
 
 .selector-sidebar .selector-item {
