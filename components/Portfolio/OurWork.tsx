@@ -36,20 +36,20 @@ export default function OurWork() {
       <Section>
         <h3 className="text-subheading font-extrabold tracking-wider">Languages:</h3>
         <TechGrid>
-          <TechCell href="" devicon="devicon-ruby-plain" />
-          <TechCell href="" devicon="devicon-python-plain" />
-          <TechCell href="" devicon="devicon-javascript-plain" />
-          <TechCell href="" devicon="devicon-go-plain" />
+          <TechCell href="https://ruby-lang.org" devicon="devicon-ruby-plain" />
+          <TechCell href="https://www.python.org/" devicon="devicon-python-plain" />
+          <TechCell href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" devicon="devicon-javascript-plain" />
+          <TechCell href="https://go.dev" devicon="devicon-go-plain" />
         </TechGrid>
       </Section>
 
       <Section className="pb-[130px] md:pb-0">
         <h3 className="text-subheading font-extrabold tracking-wider">Frameworks:</h3>
         <TechGrid>
-          <TechCell href="" devicon="devicon-rails-plain" />
-          <TechCell href="" devicon="devicon-django-plain" />
-          <TechCell href="" devicon="devicon-react-plain" />
-          <TechCell href="" devicon="devicon-nextjs-plain" />
+          <TechCell href="https://rubyonrails.org/" devicon="devicon-rails-plain" />
+          <TechCell href="https://www.djangoproject.com/" devicon="devicon-django-plain" />
+          <TechCell href="https://react.dev" devicon="devicon-react-plain" />
+          <TechCell href="https://nextjs.org/" devicon="devicon-nextjs-plain" />
         </TechGrid>
       </Section>
     </ScreenSelectorScreen>
