@@ -22,7 +22,7 @@ export default function OurWork() {
         <p>We create software with purpose—tools that help people track, connect, and engage with what they care about.</p>
         <p>From cataloging collections to amplifying social causes, each project is built with usability, performance, and scalability in mind. We&apos;re always exploring new ideas and pushing boundaries to create meaningful digital experiences.</p>
         <p>Our expertise spans a broad range of software, from sleek and responsive websites to powerful desktop applications. Whether it&apos;s a lightweight self-hosted solution or a large-scale platform, we focus on delivering software that is fast, reliable, and user-friendly.</p>
-        <p>Many of our projects are free andopen source (FOSS), allowing anyone to contribute, improve, and adapt them to their needs. We believe in transparency and collaboration, making our code available for others to build on. By embracing open-source development, we create software that is not only functional but also shaped by a community of passionate developers and users.</p>
+        <p>Many of our projects are free and open source (FOSS), allowing anyone to contribute, improve, and adapt them to their needs. We believe in transparency and collaboration, making our code available for others to build on. By embracing open-source development, we create software that is not only functional but also shaped by a community of passionate developers and users.</p>
         <div className="hidden md:flex gap-4 items-center">
           <FontAwesomeIcon icon={faArrowCircleLeft} className="text-4xl" />
           <p className="h-fit">View our projects</p>
