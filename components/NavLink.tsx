@@ -1,14 +1,17 @@
 'use client'
 
+import { IconDefinition } from "@fortawesome/fontawesome-svg-core"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 
 interface Props {
-  text: string
+  text?: string
   href: string
+  icon?: IconDefinition
 }
 
-export function NavLink({ text, href }: Props) {
+export function NavLink({ text, href, icon }: Props) {
   const pathname = usePathname()
 
   const classes = () => {
@@ -16,6 +19,9 @@ export function NavLink({ text, href }: Props) {
   }
 
   return (
-    <Link href={href} className={`${classes()} text-xl py-2 px-4 rounded whitespace-nowrap transition duration-300 ease-in-out`} >{text}</Link>
+    <Link href={href} className={`${classes()} text-xl py-2 px-4 rounded whitespace-nowrap transition duration-300 ease-in-out`} >
+      {icon && <FontAwesomeIcon icon={icon} />}
+      {text}
+    </Link>
   )
 }

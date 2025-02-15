@@ -3,6 +3,8 @@
 import Image from "next/image"
 import { NavLink } from "./NavLink"
 import { useEffect, useState, useCallback } from "react"
+import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub"
+import { faInstagram } from "@fortawesome/free-brands-svg-icons/faInstagram"
 
 export function SiteHeader() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -55,6 +57,8 @@ export function SiteHeader() {
             <NavLink text="Portfolio" href="/portfolio"/>
             <NavLink text="Team" href="/team"/>
             <NavLink text="Contact" href="/contact"/>
+            <NavLink text="" href="https://github.com/0xSTELLARWORKS" icon={faGithub}/>
+            <NavLink text="" href="https://github.com/0xSTELLARWORKS" icon={faInstagram}/>
           </div>
         </div>
       </div>
