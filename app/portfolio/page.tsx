@@ -9,8 +9,9 @@ import { ScreenSelector } from "@/components/ScreenSelector/ScreenSelector"
 import { ScreenSelectorItem } from "@/components/ScreenSelector/ScreenSelectorItem"
 import { ScreenSelectorSideBar } from "@/components/ScreenSelector/ScreenSelectorSideBar"
 import Blueclipper from "@/components/Portfolio/Blueclipper"
+import OurWork from "@/components/Portfolio/OurWork"
 
-const SCREENS = ["kaboom", "blueclipper", "tankobon"]
+const SCREENS = ["our-work", "kaboom", "blueclipper", "tankobon"]
 
 export default function Portfolio() {
   const router = useRouter()
@@ -35,7 +36,7 @@ export default function Portfolio() {
 
   const getScreen = () => {
     const screens = [
-      <Kaboom key={0} />, <Blueclipper key={1} />, <Tankobon key={2} />
+      <OurWork key={0} />, <Kaboom key={1} />, <Blueclipper key={2} />, <Tankobon key={3} />
     ]
     const index = SCREENS.indexOf(screenName)
     return screens[index]
@@ -45,6 +46,12 @@ export default function Portfolio() {
     <Page>
       <ScreenSelector>
         <ScreenSelectorSideBar>
+          <ScreenSelectorItem
+            name="Our work"
+            image="/projects/our-work.svg"
+            active={screenName === "our-work"}
+            onClick={() => updateHash("our-work")}
+          />
           <ScreenSelectorItem
             name="Kaboom"
             image="/projects/kaboom.svg"
