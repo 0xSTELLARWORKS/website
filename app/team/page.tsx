@@ -7,8 +7,9 @@ import { ScreenSelector } from "@/components/ScreenSelector/ScreenSelector"
 import { ScreenSelectorItem } from "@/components/ScreenSelector/ScreenSelectorItem"
 import { ScreenSelectorSideBar } from "@/components/ScreenSelector/ScreenSelectorSideBar"
 import Tanveer from "@/components/Team/Tanveer"
+import Diogo from "@/components/Team/Diogo"
 
-const SCREENS = ["tanveer"]
+const SCREENS = ["tanveer", "diogo"]
 
 export default function Team() {
   const router = useRouter()
@@ -33,7 +34,8 @@ export default function Team() {
 
   const getScreen = () => {
     const screens = [
-      <Tanveer key={0} />
+      <Tanveer key={0} />,
+      <Diogo key={1} />
     ]
     const index = SCREENS.indexOf(screenName)
     return screens[index]
@@ -48,6 +50,12 @@ export default function Team() {
             image="/team/tanveer.svg"
             active={screenName === "tanveer"}
             onClick={() => updateHash("tanveer")}
+          />
+          <ScreenSelectorItem
+            name="Diogo"
+            image="/team/diogo.svg"
+            active={screenName === "diogo"}
+            onClick={() => updateHash("diogo")}
           />
         </ScreenSelectorSideBar>
         {getScreen()}

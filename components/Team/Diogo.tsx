@@ -4,14 +4,14 @@ import { ScreenSelectorScreen } from "@/components/ScreenSelector/ScreenSelector
 import { Section } from "../Section";
 import Image from "next/image";
 
-export default function Tanveer() {
+export default function Diogo() {
   return (
     <ScreenSelectorScreen>
       <Section>
         <div className="flex gap-8 flex-col sm:flex-row sm:items-center">
-          <Image width={75} height={75} src="/team/tanveer-pic.png" alt="Tanveer" unoptimized className="rounded-full"/>
+          <Image width={75} height={75} src="https://github.com/nordic16.png" alt="Diogo" unoptimized className="rounded-full"/>
           <div>
-            <h2 className="text-heading font-extrabold tracking-wider">Tanveer.</h2>
+            <h2 className="text-heading font-extrabold tracking-wider">Diogo.</h2>
             <p>Software developer</p>
           </div>
         </div>
