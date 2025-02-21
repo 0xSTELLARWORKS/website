@@ -47,19 +47,16 @@ export default function Home() {
         <ScreenSelectorSideBar>
           <ScreenSelectorItem
             name="About"
-            image="/home/about.svg"
             active={screenName === "about"}
             onClick={() => updateHash("about")}
           />
           <ScreenSelectorItem
             name="Pricing"
-            image="/home/pricing.svg"
             active={screenName === "pricing"}
             onClick={() => updateHash("pricing")}
           />
           <ScreenSelectorItem
             name="Open Source"
-            image="/home/open-source.svg"
             active={screenName === "open-source"}
             onClick={() => updateHash("open-source")}
           />

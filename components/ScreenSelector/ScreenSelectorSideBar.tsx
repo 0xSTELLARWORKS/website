@@ -28,7 +28,7 @@ export function ScreenSelectorSideBar({ children }: Props) {
       </div>
       {showPopup && (
         <div className="fixed block md:hidden left-0 top-0 bg-black/50 w-full h-full z-10" onClick={closePopup}>
-          <div className="fixed mx-global w-auto max-h-[75%] h-fit bottom-[140px] right-0 bg-primary border-l-[4px] border-r-[4px] border-t-[4px] border-accent overflow-y-auto no-scrollbar">
+          <div className="fixed mx-global max-w-[358px] w-[min(calc(100%-var(--global-margin)*2),358px)] max-h-[75%] h-fit bottom-[140px] right-0 bg-primary border-l-[4px] border-r-[4px] border-t-[4px] border-accent overflow-y-auto no-scrollbar">
             {children}
           </div>
         </div>

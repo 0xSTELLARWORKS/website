@@ -48,7 +48,6 @@ export default function Portfolio() {
         <ScreenSelectorSideBar>
           <ScreenSelectorItem
             name="Our work"
-            image="/projects/our-work.svg"
             active={screenName === "our-work"}
             onClick={() => updateHash("our-work")}
           />

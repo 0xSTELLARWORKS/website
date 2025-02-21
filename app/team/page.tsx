@@ -47,13 +47,11 @@ export default function Team() {
         <ScreenSelectorSideBar>
           <ScreenSelectorItem
             name="Tanveer"
-            image="/team/tanveer.svg"
             active={screenName === "tanveer"}
             onClick={() => updateHash("tanveer")}
           />
           <ScreenSelectorItem
             name="Diogo"
-            image="/team/diogo.svg"
             active={screenName === "diogo"}
             onClick={() => updateHash("diogo")}
           />
