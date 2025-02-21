@@ -90,5 +90,5 @@ body {
 }
 
 .input {
-    @apply p-4 border-accent border-[4px] bg-primary focus:outline-accent placeholder-white;
+    @apply p-4 border-accent border-[4px] bg-primary focus:outline-accent placeholder-accent/50;
 }
