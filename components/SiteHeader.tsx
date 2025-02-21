@@ -69,12 +69,12 @@ export function SiteHeader() {
       <div className="absolute w-full h-full -z-10 animate-fade site-header"></div>
       <div className="flex h-full w-full justify-center items-center relative duration-300 ease-in-out">
         <Image
-          className="w-auto mb-[60px] mb:mb[50px] max-h-[65px] md:max-h-[170px] transition-all duration-300 ease-in-out animate-fade"
+          className="w-auto mb-[60px] mb:mb[50px] max-h-[75px] md:max-h-[170px] transition-all duration-300 ease-in-out animate-fade"
           src="/logo.svg"
           alt="StellarWorks logo"
           height={0}
           width={0}
-          style={{ height: isScrolled ? "65px" : "170px" }}
+          style={{ height: isScrolled ? "75px" : "170px" }}
         />
         <div className="h-16 flex gap-4 justify-start items-center absolute bottom-0 w-full overflow-x-auto no-scrollbar" ref={navLinksRef}>
           <div className="opacity-0 pointer-events-none fixed h-[64px] sm:w-0 w-16 z-20 bg-gradient-to-r from-secondary/75 via-secondary/75 to-transparent transition duration-300 ease-in-out" ref={leftGradientRef} />

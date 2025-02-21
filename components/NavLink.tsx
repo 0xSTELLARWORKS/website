@@ -19,7 +19,7 @@ export function NavLink({ text, href, icon }: Props) {
   }
 
   return (
-    <Link href={href} className={`${classes()} text-xl py-2 px-4 rounded whitespace-nowrap transition duration-300 ease-in-out`} >
+    <Link href={href} className={`${classes()} text-md md:text-xl py-2 px-4 rounded whitespace-nowrap transition duration-300 ease-in-out`} >
       {icon && <FontAwesomeIcon icon={icon} />}
       {text}
     </Link>
