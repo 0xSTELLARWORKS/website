@@ -24,7 +24,7 @@ export function ScreenSelectorItem({ name, image, active, onClick }: Props) {
       )}
       {!image && (
         <div className="flex items-center justify-center aspect-[2.63] bg-transparent">
-          <div className="capitalize text-[min(8vw,190%)] md:text-[2.5vw] lg:text-4xl font-extrabold text-white font-[family-name:var(--font-petit)] text-accent">
+          <div className="capitalize text-[min(8vw,190%)] md:text-[2.5vw] lg:text-4xl font-extrabold font-[family-name:var(--font-petit)] text-accent">
             {name}
           </div>
         </div>
