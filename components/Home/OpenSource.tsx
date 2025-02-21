@@ -7,7 +7,7 @@ export default function OpenSource() {
   return (
     <ScreenSelectorScreen>
       <Section>
-        <h2 className="text-heading font-extrabold tracking-wider text-center relative home-title">Driving innovation through<br />collaboration.</h2>
+        <h2 className="text-heading tracking-wider text-center relative home-title">Driving innovation through<br />collaboration.</h2>
       </Section>
     </ScreenSelectorScreen>
   )

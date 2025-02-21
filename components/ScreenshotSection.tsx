@@ -16,7 +16,7 @@ export function ScreenshotSection({ screenshots }: Props) {
   return (
     <>
       <Section>
-        <h3 className="text-subheading font-extrabold tracking-wider">Screenshots:</h3>
+        <h3 className="text-subheading tracking-wider">Screenshots:</h3>
         <Swiper slidesPerView={'auto'} spaceBetween={16} freeMode mousewheel={{enabled: true}}>
           {screenshots.map((image, index) => {
             return (

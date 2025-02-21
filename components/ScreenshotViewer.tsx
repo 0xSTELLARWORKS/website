@@ -45,7 +45,7 @@ export function ScreenshotViewer({ screenshots, currentScreenshot, setCurrentScr
           />
           <FontAwesomeIcon icon={faCircleArrowRight} className="text-4xl absolute right-0 top-1/2 -translate-y-1/2 mr-4 cursor-pointer" onClick={() => change(1)} />
           <FontAwesomeIcon icon={faCircleArrowLeft} className="text-4xl absolute left-0 top-1/2 -translate-y-1/2 ml-4 cursor-pointer" onClick={() => change(-1)} />
-          <p className="absolute bottom-0 left-1/2 -translate-x-1/2 mb-8 font-extrabold text-2xl">{currentScreenshot + 1} / {screenshots.length}</p>
+          <p className="absolute bottom-0 left-1/2 -translate-x-1/2 mb-8  text-2xl">{currentScreenshot + 1} / {screenshots.length}</p>
         </div>
       )}
     </>

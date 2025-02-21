@@ -7,7 +7,7 @@ export default function Pricing() {
   return (
     <ScreenSelectorScreen>
       <Section>
-        <h2 className="text-heading font-extrabold tracking-wider">Our pricing.</h2>
+        <h2 className="text-heading tracking-wider">Our pricing.</h2>
       </Section>
     </ScreenSelectorScreen>
   )

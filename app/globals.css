@@ -9,6 +9,7 @@
     --nav-height: 160px;
     --side-bar-top: 160px;
     --global-margin: 30px;
+    --heading: 23px;
 }
 
 @media screen and (min-width: 960px) {
@@ -16,6 +17,7 @@
         --nav-height: 360px;
         --side-bar-top: 360px;
         --global-margin: 54px;
+        --heading: 30px;
     }
 }
 
@@ -26,7 +28,7 @@ body {
 }
 
 .section:last-of-type {
-    margin-bottom: var(--global-margin);
+    padding-bottom: var(--global-margin);
 }
 
 .swiper-slide {
@@ -74,10 +76,14 @@ body {
     right: 0;
     margin: 0 auto;
     bottom: -10px;
-    height: 35px;
+    height: var(--heading);
     background-image: url("/swerve.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     z-index: -1;
+}
+
+.input {
+    @apply p-4 border-accent border-[4px] bg-primary focus:outline-accent placeholder-white;
 }

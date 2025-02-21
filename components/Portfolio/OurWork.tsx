@@ -34,7 +34,7 @@ export default function OurWork() {
       </Section>
 
       <Section>
-        <h3 className="text-subheading font-extrabold tracking-wider">Languages:</h3>
+        <h3 className="text-subheading tracking-wider">Languages:</h3>
         <TechGrid>
           <TechCell href="https://ruby-lang.org" devicon="devicon-ruby-plain" />
           <TechCell href="https://www.python.org/" devicon="devicon-python-plain" />
@@ -44,7 +44,7 @@ export default function OurWork() {
       </Section>
 
       <Section className="pb-[130px] md:pb-0">
-        <h3 className="text-subheading font-extrabold tracking-wider">Frameworks:</h3>
+        <h3 className="text-subheading tracking-wider">Frameworks:</h3>
         <TechGrid>
           <TechCell href="https://rubyonrails.org/" devicon="devicon-rails-plain" />
           <TechCell href="https://www.djangoproject.com/" devicon="devicon-django-plain" />

@@ -34,24 +34,24 @@ export default function Tankobon() {
       />
 
       <Section>
-        <h3 className="text-subheading font-extrabold tracking-wider">The tankōbon format</h3>
+        <h3 className="text-subheading tracking-wider">The tankōbon format</h3>
         <p>In Japan, manga are typically collected in volumes, each with a length of around 7 chapters. Most series are first serialized in magazines before being compiled into tankōbon volumes.</p>
       </Section>
 
       <Section>
-        <h3 className="text-subheading font-extrabold tracking-wider">Built and maintained by the community</h3>
+        <h3 className="text-subheading tracking-wider">Built and maintained by the community</h3>
         <p>Tankōbon is a community-driven site, meaning you can add or edit data as long as you have an account. Tankōbon is also open-source! Community members can contribute by suggesting new features and fixing bugs.</p>
       </Section>
 
       <Section>
-        <h3 className="text-subheading font-extrabold tracking-wider">For the collector</h3>
+        <h3 className="text-subheading tracking-wider">For the collector</h3>
         <p>Never accidentally buy the same volume twice! Tankōbon helps you track your manga collection across multiple editions.</p>
       </Section>
 
       <ProjectCta colour="bg-[#29CF95]" />
 
       <Section>
-        <h3 className="text-subheading font-extrabold tracking-wider">Technologies:</h3>
+        <h3 className="text-subheading tracking-wider">Technologies:</h3>
         <TechGrid>
           <TechCell href="https://www.python.org" devicon="devicon-python-plain"/>
           <TechCell href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" devicon="devicon-javascript-plain"/>
@@ -63,7 +63,7 @@ export default function Tankobon() {
       </Section>
 
       <Section>
-        <h3 className="text-subheading font-extrabold tracking-wider">Links:</h3>
+        <h3 className="text-subheading tracking-wider">Links:</h3>
         <div className="flex flex-wrap gap-4">
           <Link className="flex items-center gap-2 text-[15px] border-[4px] py-4 px-7 border-accent hover:bg-secondary transition duration-300" href="https://tankobon.fly.dev/">
             <FontAwesomeIcon icon={faGlobe} className="text-lg" />

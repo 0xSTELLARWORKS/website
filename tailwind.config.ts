@@ -29,7 +29,7 @@ export default {
         top: "top"
       },
       fontSize: {
-        heading: "30px",
+        heading: "var(--heading)",
         subheading: "20px",
         cta: "25px"
       },
