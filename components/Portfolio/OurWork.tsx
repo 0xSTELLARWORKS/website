@@ -43,7 +43,7 @@ export default function OurWork() {
         </TechGrid>
       </Section>
 
-      <Section className="pb-[130px] md:pb-0">
+      <Section className="!pb-[130px] md:pb-0">
         <h3 className="text-subheading tracking-wider">Frameworks:</h3>
         <TechGrid>
           <TechCell href="https://rubyonrails.org/" devicon="devicon-rails-plain" />
