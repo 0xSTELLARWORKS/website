@@ -41,7 +41,7 @@ export default function Contact() {
       <div className={`pt-nav ${success ? '' : 'animate-appear'}`}>
         <Section className="items-center">
           <div className="w-fit">
-            <h1 className="text-heading italic">Let&apos;s talk!</h1>
+            <h1 className="text-heading">Let&apos;s talk!</h1>
             <div className={`w-full h-[4px] bg-secondary ${success ? '' : 'animate-underline'}`} />
           </div>
         </Section>

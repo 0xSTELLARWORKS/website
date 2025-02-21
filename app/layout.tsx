@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Poppins, Space_Mono } from "next/font/google";
+import { Petit_Formal_Script, Poppins, Space_Mono } from "next/font/google";
 import "./globals.css";
 import { SiteHeader } from "@/components/SiteHeader";
 
@@ -13,6 +13,12 @@ const spaceMono = Space_Mono({
   variable: "--font-space-mono",
   subsets: ["latin"],
   weight: ["400", "700"]
+});
+
+const petit = Petit_Formal_Script({
+  variable: "--font-petit",
+  subsets: ["latin"],
+  weight: ["400"]
 });
 
 export const metadata: Metadata = {
@@ -31,7 +37,7 @@ export default function RootLayout({
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
       </head>
       <body
-        className={`${poppins.variable} ${spaceMono.variable} antialiased no-scrollbar`}
+        className={`${poppins.variable} ${spaceMono.variable} ${petit.variable} antialiased no-scrollbar`}
       >
         <SiteHeader />
         {children}

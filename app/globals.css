@@ -9,7 +9,7 @@
     --nav-height: 160px;
     --side-bar-top: 160px;
     --global-margin: 30px;
-    --heading: 23px;
+    --heading: 21px;
 }
 
 @media screen and (min-width: 960px) {
@@ -25,6 +25,11 @@ body {
     color: rgb(var(--accent));
     background: rgb(var(--primary));
     font-family: Poppins, sans-serif;
+}
+
+.text-heading {
+    font-family: var(--font-petit);
+    font-weight: 600;
 }
 
 .section:last-of-type {

@@ -14,7 +14,7 @@ export default function ProjectTitle({ title, subheading, image, colour }: Props
       <div className="flex gap-8 flex-col sm:flex-row sm:items-center">
         <Image width={75} height={75} src={image} alt={`${title} logo`}/>
         <div>
-          <h2 className="text-heading tracking-wider">{title}.</h2>
+          <h2 className="text-heading">{title}.</h2>
           <p>{subheading}</p>
         </div>
       </div>
