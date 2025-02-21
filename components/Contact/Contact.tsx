@@ -56,17 +56,17 @@ export default function Contact() {
           <form className="flex flex-col gap-6 items-center mb-global" method="post" action="https://portal.stellarworks.dev/companies/stellarworks/form">
             <div className="flex flex-col gap-4 max-w-[800px] w-full">
               <label htmlFor="email">Email</label>
-              <input className="input" id="email" name="form[from]" type="email" placeholder="contact@example.com" autoComplete="email" />
+              <input className="input" id="email" name="form[from]" type="email" placeholder="contact@example.com" autoComplete="email" required />
             </div>
 
             <div className="flex flex-col gap-4 max-w-[800px] w-full">
               <label htmlFor="subject">Subject</label>
-              <input className="input" id="subject" name="form[subject]" type="text" placeholder="Subject..." autoComplete="nope" />
+              <input className="input" id="subject" name="form[subject]" type="text" placeholder="Subject..." autoComplete="nope" required />
             </div>
 
             <div className="flex flex-col gap-4 max-w-[800px] w-full">
               <label htmlFor="message">Message</label>
-              <textarea className="input min-h-[400px]" id="message" name="form[body]" placeholder="Your message here..." autoComplete="nope" />
+              <textarea className="input min-h-[400px]" id="message" name="form[body]" placeholder="Your message here..." autoComplete="nope" required />
             </div>
 
             <div className="absolute left-[-999999999999px]">
