@@ -25,7 +25,7 @@ export default function About() {
         <div>
           <p>Our services include but are not limited to:</p>
           <ul className="list-disc ml-6">
-            <li>Static websites development and hosting</li>
+            <li>Static website development and hosting</li>
             <li>Custom data management solutions</li>
             <li>Mobile apps</li>
             <li>Desktop apps</li>
