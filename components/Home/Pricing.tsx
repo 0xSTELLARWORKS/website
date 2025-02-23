@@ -67,7 +67,7 @@ export default function Pricing() {
 
         <p>For static websites, the ongoing costs are minimal:</p>
         <ul className="list-disc ml-6">
-          <li><b>Domain</b>: This is for your unique website address, e.g. yourbusiness.com. We&apos;ll set this up for you and is typically a small annual fee. If you prefer not to use a custom domain, we can provide you with a free subdomain (e.g., yourbusiness.stellarworks.dev).</li>
+          <li><b>Domain</b>: This is for your unique website address, e.g. yourbusiness.com. We&apos;ll set this up for you and is typically a small annual fee. If you prefer not to use a custom domain, we can provide you with a free subdomain (e.g. yourbusiness.stellarworks.dev).</li>
           <li><b>Emails sent through contact forms</b>: A small fee per email sent through your site&apos;s contact form (if you have one), but only if you exceed a certain threshold in a month. The amount and threshold can be adjusted based on your needs.</li>
         </ul>
 
