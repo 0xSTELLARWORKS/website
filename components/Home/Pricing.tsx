@@ -12,7 +12,7 @@ export default function Pricing() {
       </Section>
 
       <Section>
-        <p><b>How much does a software project cost?</b> That depends on the scope, complexity, and timeline of the project. We try to offer flexible pricing options to suit your needs, whether you prefer hourly billing, fixed-price projects, or simple ongoing development support.</p>
+        <p><b>How much does a software project cost?</b> That depends on the scope, complexity, and timeline of the project. We try to offer flexible pricing options to suit your needs, whether you prefer hourly billing, fixed-price projects, or ongoing development.</p>
       </Section>
 
       <Section>
