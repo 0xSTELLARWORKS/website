@@ -16,13 +16,13 @@ export function SiteHeader() {
   const handleScroll = useCallback(() => {
     if (window.innerWidth < 960) {
       setIsScrolled(true)
-      document.documentElement.style.setProperty("--side-bar-top", "160px")
+      document.documentElement.style.setProperty("--side-bar-top", "150px")
       return
     }
 
     if (window.scrollY > 200) {
       setIsScrolled(true)
-      document.documentElement.style.setProperty("--side-bar-top", "160px")
+      document.documentElement.style.setProperty("--side-bar-top", "150px")
     } else {
       setIsScrolled(false)
       document.documentElement.style.setProperty("--side-bar-top", "360px")
@@ -62,14 +62,14 @@ export function SiteHeader() {
 
   return (
     <div
-      className={`fixed top-0 w-full border-b-4 border-accent bg-secondary transition-all duration-300 ease-in-out z-10 max-h-[160px] md:max-h-[360px] ${
-        isScrolled ? "h-[160px]" : "h-[360px]"
+      className={`fixed top-0 w-full border-b-4 border-accent bg-secondary transition-all duration-300 ease-in-out z-10 max-h-[150px] md:max-h-[360px] ${
+        isScrolled ? "h-[150px]" : "h-[360px]"
       }`}
     >
       <div className="absolute w-full h-full -z-10 animate-fade site-header"></div>
       <div className="flex h-full w-full justify-center items-center relative duration-300 ease-in-out">
         <Image
-          className="w-auto mb-[60px] mb:mb[50px] max-h-[75px] md:max-h-[170px] transition-all duration-300 ease-in-out animate-fade"
+          className="w-auto mb-[55px] mb:mb[50px] max-h-[75px] md:max-h-[170px] transition-all duration-300 ease-in-out animate-fade"
           src="/logo.svg"
           alt="StellarWorks logo"
           height={0}
