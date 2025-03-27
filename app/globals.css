@@ -33,7 +33,7 @@ body {
 }
 
 .section:last-of-type {
-    padding-bottom: var(--global-margin);
+    padding-bottom: 130px;
 }
 
 .swiper-slide {
