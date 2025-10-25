@@ -28,7 +28,7 @@ export default function Blueclipper() {
 
       <Section>
         <h3 className="text-subheading tracking-wider">Follow the movement</h3>
-        <p>Stay up to date with real-time posts from the causes and people you follow. No algorithms pushing content—just a simple, chronological feed of the latest updates from your network.</p>
+        <p>Stay up to date with real-time posts from the causes and people you follow. No algorithms pushing content, just a simple, chronological feed of the latest updates from your network.</p>
       </Section>
 
       <Section>

@@ -39,7 +39,7 @@ export default function Kaboom() {
 
       <Section>
         <h3 className="text-subheading tracking-wider">Built for social connection</h3>
-        <p>Kaboom isn&apos;t just a comic tracker—it&apos;s a community. Follow other users, engage with their activities, and explore their ratings and reviews. Share your thoughts on your favorite issues, discover what others are reading, and connect over shared comic passions.</p>
+        <p>Kaboom isn&apos;t just a comic tracker, it&apos;s a community. Follow other users, engage with their activities, and explore their ratings and reviews. Share your thoughts on your favorite issues, discover what others are reading, and connect over shared comic passions.</p>
       </Section>
 
       <Section>
